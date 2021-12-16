@@ -1,0 +1,109 @@
+/* Author: Mekha R
+   Date  :  16/12/2021 */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background:url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+  
+  /*navigation start*/
+
+.menu-container{
+  	background-color: #000;
+  	padding: 20px;
+   }
+
+.menu-container ul{
+            
+    list-style: none;
+    text-align: center;
+    }
+.menu-container ul li{
+
+     display: inline-flex;
+      padding:15px;
+      position: relative;
+
+    }  
+
+.menu-container a{
+
+    	color: #fff;
+    	text-decoration: none;
+    	font-size:20px;
+ } 
+ .active{
+  background-color: #f00;
+}
+ 
+ 
+ .submenu{
+    	display: none;
+    }
+
+.menu-container ul li:hover{
+    	background-color: #f00;
+    }
+
+.menu-container ul li:hover .submenu{
+
+    	display: block;
+    	position: absolute;
+    	left: 0;
+    	top: 50px;
+    	
+    }
+    .submenu ul{
+    	background-color: #000;
+    	padding: 15px;
+    }
+
+      /*navigation end*/
+      
+     /*container start*/
+
+    .row{
+    	display:flex;
+    	
+    }
+    .col
+    {
+    	background-color:rgba(0,0,0,0.4);
+    	width: 30%;
+    	margin: 15px;
+    	padding: 20px;
+    	color:#fff;
+    }
+    .col h2{
+    	text-align: center;
+    	margin-bottom: 50px;
+    	text-decoration: underline;
+    }
+    .col p{
+    	font-size: 18px;
+    	text-align: justify;
+    }
+    /*container end*/
+    
+    /*footer start*/
+    footer{
+    	background-color: #000;
+    	padding: 25px;
+    	text-align: center;
+     }
+
+   span{
+   	color: #fff;
+    }
+   footer p{
+   	
+  	margin:15px;
+   }
+   /*footer end*/
+
+
